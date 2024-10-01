@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diff Demo</title>
+    <meta charset="UTF-8" />
+    <script src="src/index.js" type="module"></script>
+</head>
+<body>
+    <div class="container" id="mathContainer">
+        <div>
+            <label for="expressionInput">Expression: </label>
+            <input type="text" id="expressionInput" placeholder="e.g., x^3 + 2*x - 5">
+        </div>
+        <div>
+            <label for="variableInput">Variable: </label>
+            <input type="text" id="variableInput" placeholder="e.g., x">
+        </div>
+        <div>
+            <button id="newExprButton">Show new expression!</button>
+            <button id="calculateButton">Calculate Derivative</button>
+        </div>
+        <h2>Result: </h2>
+        <div id="resultContainer">The result will be shown here</div>
+    </div>
+</body>
+</html>
